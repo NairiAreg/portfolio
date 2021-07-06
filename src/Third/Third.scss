@@ -1,0 +1,16 @@
+@import "../../node_modules/react-awesome-slider/dist/styles.css";
+@import "../../node_modules/react-awesome-slider/dist/custom-animations/cube-animation.css";
+@import "../../node_modules/react-awesome-slider/dist/custom-animations/fall-animation.css";
+@import "../../node_modules/react-awesome-slider/dist/custom-animations/fold-out-animation.css";
+@import "../../node_modules/react-awesome-slider/dist/custom-animations/open-animation.css";
+@import "../../node_modules/react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+
+#third {
+    background: #6dd47e;
+    height: 100%;
+    color: #293250;
+
+    video {
+        width: 100%;    
+    }
+}

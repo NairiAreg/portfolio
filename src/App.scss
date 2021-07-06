@@ -1,0 +1,28 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+#root {
+    max-width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gloria Hallelujah", cursive;
+    color: #293250;
+}
+
+pre {
+    font-family: "Gloria Hallelujah", cursive;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+hr {
+    width: 100%;
+}
+
+button.btn {
+    background-color: #293250 !important;
+    color: white !important;
+}

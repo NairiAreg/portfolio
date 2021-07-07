@@ -171,11 +171,14 @@ transform: rotate(90deg) translateX(-50%);
 
 .node-card .main-title { margin-bottom: 50px; }
 
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 .node-card .logo {
 display: flex;
 align-items: center;
-padding-left: 15px;
-padding-right: 15px;
 height: 240px;
 width: 220px;
 background-color: var(--color-fourth);
@@ -187,3 +190,13 @@ border: 5px solid var(--color-black);
 .logo.-no-padding .image { height: 230px; }
 
 .logo.-bg-red { background-color: var(--color-first); }
+
+
+@media (max-width: 600px) {
+    .button-arrow.-right { right: 0 }
+    .button-arrow.-left { left: 0 }
+    .main-carousel {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

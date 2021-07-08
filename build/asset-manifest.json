@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.37b98472.chunk.css",
+    "main.css": "/static/css/main.678515c4.chunk.css",
     "main.js": "/static/js/main.69456e2b.chunk.js",
     "main.js.map": "/static/js/main.69456e2b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f543b0cd.js",
@@ -12,7 +12,7 @@
     "static/js/3.d8cf753e.chunk.js.map": "/static/js/3.d8cf753e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.bd33228a.chunk.css.map": "/static/css/2.bd33228a.chunk.css.map",
-    "static/css/main.37b98472.chunk.css.map": "/static/css/main.37b98472.chunk.css.map",
+    "static/css/main.678515c4.chunk.css.map": "/static/css/main.678515c4.chunk.css.map",
     "static/js/2.aca80295.chunk.js.LICENSE.txt": "/static/js/2.aca80295.chunk.js.LICENSE.txt",
     "static/media/apartment.15864f33.mp4": "/static/media/apartment.15864f33.mp4",
     "static/media/arkhitektor.dfbd9847.mp4": "/static/media/arkhitektor.dfbd9847.mp4",
@@ -69,7 +69,7 @@
     "static/js/runtime-main.f543b0cd.js",
     "static/css/2.bd33228a.chunk.css",
     "static/js/2.aca80295.chunk.js",
-    "static/css/main.37b98472.chunk.css",
+    "static/css/main.678515c4.chunk.css",
     "static/js/main.69456e2b.chunk.js"
   ]
 }

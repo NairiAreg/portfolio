@@ -15,7 +15,7 @@ export default function Third() {
     const [animationName, setAnimationName] = useState(0);
 
     return (
-        <div id="third">
+        <div id="third" className="py-5">
             <div className="container d-flex flex-column justify-content-around align-items-center w-100 h-100">
                 <button className="btn" onClick={() => animationName !== 4 ? setAnimationName(animationName + 1) : setAnimationName(0)}>
                     Change Sliding Animation

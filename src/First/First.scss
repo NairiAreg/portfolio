@@ -9,6 +9,10 @@
 
 // Book
 
+.pointer-events-none {
+    pointer-events: none;
+}
+
 :root {
     /* colors */
     --body-bg: #fafafa;

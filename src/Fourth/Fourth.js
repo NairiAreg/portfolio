@@ -18,6 +18,9 @@ import reactcourse from '../Img/reactcourse.png';
 import wd from '../Img/wd.png';
 import ferien from '../Img/ferien.png';
 import evistep from '../Img/evistep.png';
+import htcoding from '../Img/htcoding.png';
+import flexy from '../Img/flexy.png';
+import monomark from '../Img/monomark.png';
 
 export default function Third() {
 
@@ -58,7 +61,7 @@ export default function Third() {
             <div className="container d-flex flex-column justify-content-around align-items-center w-100 h-100">
                 <h1 className="main-title">My life <span className="d-flex flex-nowrap text-white">(+ Career)</span></h1>
                 <section className="main-carousel">
-                    <button className="button-arrow -left" title="Clique para voltar">
+                    <button className="button-arrow -left outline-none" title="Clique para voltar">
                         <span className="content">Voltar</span>
                     </button>
 
@@ -205,10 +208,30 @@ export default function Third() {
                                     <img className="image" src={evistep} alt="Logo da Caelum" />
                                 </div>
                             </article>
+
+                            <article className="node-card">
+                                <h2 className="main-title -second">2021</h2>
+                                <div className="logo -bg-red">
+                                    <img src={htcoding} alt="Logo da CollabCode" />
+                                </div>
+                            </article>
+                            <article className="node-card">
+                                <h2 className="main-title -second">2022</h2>
+                                <div className="logo">
+                                    <img src={flexy} alt="Logo da Locaweb" />
+                                </div>
+                            </article>
+
+                            <article className="node-card">
+                                <h2 className="main-title -second">2022</h2>
+                                <div className="logo -no-padding">
+                                    <img className="image" src={monomark} alt="Logo da Caelum" />
+                                </div>
+                            </article>
                         </div>
                     </div>
 
-                    <button className="button-arrow -right" title="Clique para avançar">
+                    <button className="button-arrow -right outline-none" title="Clique para avançar">
                         <span className="content">Avançar</span>
                     </button>
                 </section>
